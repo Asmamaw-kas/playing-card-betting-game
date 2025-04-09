@@ -1,0 +1,89 @@
+body{
+    
+    background-color: rgb(9, 126, 244);          
+}
+.conta{
+margin-top: 30vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.conta div{
+ font-size: 70px;
+}
+.container{
+
+ display: flex;
+ flex-direction: column;
+ border-radius: 15px;
+ align-items: center;
+ justify-content: center;
+ margin-top: 20px;
+ 
+        }
+
+p{
+                                        
+    font-style: italic;
+    font-size: 37px;
+    color: tomato;
+    font-weight: bold;
+}
+
+img{
+    width: 300px;
+   border-radius: 15px;
+ 
+
+}
+#goodluck{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#btn1{
+    position: absolute;
+    right: 30px;
+    bottom: 70px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 7px;
+    background-color: greenyellow;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+#btn1:hover{
+    background-color: rgb(106, 168, 12);
+}
+#btn2{
+    position: absolute;
+    right: 30px;
+    bottom: 38px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(239, 70, 14);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+#btn2:hover{
+    background-color: rgb(173, 50, 10);
+}
+#random{
+    position: absolute;
+    right: 30px;
+    bottom: 7px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 7px;
+    background: linear-gradient(red,white);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+#random:hover{
+    background: linear-gradient(rgb(181, 2, 2),rgb(219, 218, 218));
+}

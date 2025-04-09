@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playing card</title>
+    <link rel="stylesheet" href="playing-card-1.css">
+    <style>
+#animation{
+    border-radius: 15px;
+    margin-top: 80px;
+    position: relative;
+}
+.possi1, .possi2, .possi3, .possi4{
+        width: 300px;
+        border-radius: 13px;
+        border: 2px solid black;
+        box-shadow: 0 5px 10px;
+       
+     }
+     img{
+        width: 300px;
+     }
+     .possi1{
+        position: absolute;
+        left: 80px;
+        bottom: 160px;
+     }
+     .possi2{
+        position: absolute;
+        left: 100px;
+        bottom: 180px;
+     }
+     .possi3{
+        position: absolute;
+        right: 100px;
+        bottom: 160px;
+     }
+     .possi4{
+        position: absolute;
+        right: 80px;
+        bottom: 180px;
+     }
+    </style>
+    
+</head>
+<body>
+    
+    <div class="super-div"> 
+         
+    </div>
+    <div id="animation">   
+    </div>
+    <button id="btn1" onclick="startclock(); const btn1 = document.getElementById('btn1');
+    const btn2 = document.getElementById('btn2');
+    if (btn1.innerHTML='Start')
+    {
+        btn1.innerHTML='Started';
+        btn2.innerHTML='Stop'
+    }">Start</button>
+     <button id="btn2" onclick="stopclock(); const btn1 = document.getElementById('btn1');
+     btn2 = document.getElementById('btn2');if (btn2.innerHTML='Stop')
+    {
+        btn1.innerHTML='Start';
+        btn2.innerHTML='Stoped'
+    }
+    ">Stoped</button>
+     <button id="random" onclick="randomColor()">Color</button>
+     <script>
+    function fun(){  
+    left = left+3;
+    let start
+    anime.style.left = `${left}px`
+
+    if(left > 1580){
+        left=-380
+    }
+        anime.innerHTML =
+         `<img class="img-${left}" src="imagess/img-${anotherRandom}.jpg" alt="img">
+           
+         `
+          anotherRandom = Math.floor(Math.random()*52) + 1;
+          
+          
+         
+         
+}
+setInterval(fun, 100)
+     </script>
+     
+   <script src="playing-card-1.js"></script>
+</body>
+</html>
