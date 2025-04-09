@@ -22,6 +22,6 @@ players select 8 card from 54 cards and the app select 8 card randomly next the 
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
+git clone https://github.com/Asmamaw-kas/playing-card-betting-game.git
+cd playing-card-project
 npm install
