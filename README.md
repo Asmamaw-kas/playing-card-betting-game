@@ -1,26 +1,24 @@
 # 🚀 playing card
-playing card batting game using simple technologies (html , css and vanilla javascript)
+playing card batting game using simple technologies (html , css and vanilla javascript) 120 sec time duration
+players select 8 card from 54 cards and the app select 8 card randomly next the player match his card whis the displayed card, depending on the rule and the amount he got the money calculated
 
 ---
 
 ## ✨ Features
-.
-
-
----
-
-## **🛠️ Tech Stack**
-- **Backend**: Node.js, Express
-- **Database**: PostgreSQL
-- **Frontend**: React (if applicable)
-- **Tools**: Docker, AWS S3
+. 30 second animation until the players getting ready 
+. select 8 card and matching
+. select winner 
+. restart the game
 
 ---
 
-## **⚡ Quick Start**
-### Prerequisites
-- Node.js v18+
-- PostgreSQL 14+
+## **🛠️ Tech used**
+.html
+.css
+.js
+
+---
+
 
 ### Installation
 ```bash
